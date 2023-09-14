@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=EB+Garamond:ital,wght@1,400;1,500&family=Kaushan+Script&family=Lugrasimo&family=Zen+Kaku+Gothic+New&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.vishnu{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+ul li{
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Chokokutai', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: rgb(5, 70, 120);
+    font-weight: bold;
+    padding-right: 60px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+ul li a:hover{
+    color: blueviolet;
+}
+.details{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.details h1{
+    font-size: 40px;
+    color:rgb(64, 4, 125);
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(59, 2, 112);
+}
+.details p{
+    color: rgb(149, 5, 165);
+    line-height: 22px;
+    font-size: 20px;
+}
+.details a{
+    background-color: rgb(197, 233, 233);
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 30px 0;
+    border-radius: 5px;
+    color: rgb(21, 38, 72);
+}
+.images{
+    width:45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images .shape{
+    width:900px;
+    height:650px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+.images .girl{
+    width:600px;
+    height:500px;
+    padding-bottom: 100px;
+}
+.images:hover .shape{
+    bottom: 15px;
+}
+.images:hover .girl{
+    left:30%;
+}
+.main2 .intro h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 12px;
+    color: rgb(9, 16, 141);
+    padding-top: 150px;
+}
+.main2 .intro p{
+    margin: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    padding-top: 90px;
+}
+.skillitem{
+    display: flex;
+    padding: 2px 3px;
+    align-items: center;
+    font-style: oblique;
+    font-weight: 300;
+}
+.skillcontainer{
+    padding: 12px;
+    padding-top: 150px;
+}
+.skill{
+    width:50vh;
+    height:15px;
+    background-color: rgb(14, 1, 82);
+}
+.fifty{
+    width:200px;
+    background-color: aqua;
+}
+.hundred{
+    width: 300px;
+    background-color: blueviolet;
+}
+.t4{
+    width: 400px;
+    background-color: rgb(188, 232, 122);
+}
+.t5{
+    width: 500px;
+    background-color: rgb(5, 73, 73);
+}
+.intro{
+    display: flex;
+    margin:30px 170px;
+    margin-top: 100px;
+    width: 1200px;
+    height: 60vh;
+    gap: 40px;
+    background-color: rgba(229, 175, 247, 0.72);
+    padding: 5px 3px;
+
+}
+.button{
+    padding: 5px;
+    border-radius: 30px;
+    color: rgb(124, 26, 216);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    background-color: rgba(237, 221, 112, 0.739);
+    margin: 0 4px;
+    cursor: pointer;
+    margin-left: 700px;
+} 
+
+  .contact{
+    position: relative;
+    min-height: 89.80vh;
+    padding :50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?b=1&s=612x612&w=0&k=20&c=gxvFaSo4attQ1jO45PET0SCOX7ZxpEknCACW9bEutgw=");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-attachment: fixed;
+    max-height: 250vw;
+  }
+  .contact .content{
+    max-width: 1000px;
+    text-align: center;
+
+  }
+  .contact .content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(26, 57, 82);
+    font-style:oblique;
+
+
+  }
+  .contact .content p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(171, 231, 222);
+  }
+  .container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+  }
+  .container .contactinfo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .contactinfo .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+  }
+  .container .contactinfo .icon{
+    min-width: 60px;
+    min-height: 60px;
+    background: #56a1f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+  }
+  .container .contactinfo .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    flex-direction: column;
+    font-weight: 400;
+    font-style:italic;
+  }
+  .container .contactinfo .text h3{
+    font-weight: 300;
+    color: #00bcd4;
+  }
+  .contactForm{
+    width: 30%;
+    padding:20px;
+    background:#e9f1fc;
+    float: left;
+  }
+  .contactForm h2{
+    font-size: 300;
+    color: #333;
+    font-weight: 500;
+    
+  }
+  .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+  }
+  .contactForm .inputBox input,
+  .contactForm .inputBox textarea{
+    width:100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize:none;
+
+  }
+  .contactForm .inputBox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#666
+  }
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid~ span,
+  .contactForm .inputBox textarea:focus ~ span,
+  .contactForm .inputBox textarea:valid~ span
+  {
+    color: #21047a;
+    font-size: 12;
+    transform: translatey(-20px);
+  }
+  .contactForm .inputBox input[type="submit"]{
+    width:100px;
+    background: #00bcd4;
+    border:none;
+    cursor:pointer;
+    padding: 10px;
+    font-size: 18px;
+
+  }
+  @media (max-width:991px){
+    .contact{
+        padding:50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom:40px ;
+    }
+    .container .contactinfo .contactForm{
+        width:100%;
+    }
+
+
+  }
+  .navbar {
+    background-color: #2b527be1;
+    color: #fff;
+    overflow: hidden;
+    max-height: 150px;
+    padding-bottom: 10px;
+   
+  }
+  
+  .navbar a {
+    display: inline-block;
+    color: #341b39;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(209, 149, 209);
+    font-style: italic;
+    padding-top: 10px;
+    
+
+   
+  }
+  .navbar a:hover{
+    background-color: hwb(310 41% 18% / 0.288);
+    
+  }
+  
+  
+
